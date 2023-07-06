@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Text for SEO, first thing people see when searching smth in the internet"
+    />
+    <link rel="icon" href="img/favicon-small.png" />
+    <link rel="apple-touch-icon" href="img/favicon-apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>SCULPT &mdash; Train everywhere!</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="img/SCULPT logo.jpg" alt="SCULPT logo"
+      /></a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#locations">Locations</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              A gym membership that you will definetely use!
+            </h1>
+            <p class="hero-description">
+              The smart monthly subscription that will make you stick to your
+              training routine. Try different activities in diffrerent
+              locations, and choose whatever your body and soul need the most.
+              Yoga, crossfit, swimming, SPA, beauty procedures - you name it.
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Start training</a
+            >
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <div class="customers">
+              <div class="customers-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div>
+              <p class="customers-text">
+                <span>250,000+</span> people who are already fit!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <!-- <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero.png" type="image/png" /> make a webp version and backup-->
+
+              <img
+                src="img/hero-section.jpg"
+                class="hero-img"
+                alt="People enjoying yoga retreat"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">Some of our partners</h2>
+          <div class="logos">
+            <img src="img/logos/1464.png" alt="pic" />
+            <img src="img/logos/1760.png" alt="pic" />
+            <img src="img/logos/1864.png" alt="pic" />
+            <img src="img/logos/1963.png" alt="pic" />
+            <img src="img/logos/3126.png" alt="pic" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">How it works</span>
+          <h2 class="heading-secondary">
+            Your daily dose of health in 3 simple steps
+          </h2>
+        </div>
+
+        <!-- STEP 01 -->
+        <div class="container grid grid--2-cols grid--padding grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Choose what you like</h3>
+            <p class="step-description">
+              Buy a membership and decide where you want to go. Use filters:
+              that way you can sort by category or location
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="img/app/app-screen-1.png"
+              alt="IPhone app preferences selection screen"
+            />
+          </div>
+        </div>
+        <!-- STEP 02 -->
+        <div class="container grid grid--2-cols grid--padding grid--center-v">
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="img/app/app-screen-2.png"
+              alt="IPhone app booking screen"
+            />
+          </div>
+
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">
+              Book a class. What's it gonna be today?
+            </h3>
+            <p class="step-description">
+              One click - and consider a class booked! You will find your
+              booking arrangments in your account.
+            </p>
+          </div>
+        </div>
+
+        <!-- STEP 03 -->
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">
+              Confirm a booking - and you're good to go
+            </h3>
+            <p class="step-description">
+              Tell an administrator on the spot that you've booked a class via
+              SCULPT and show your verification code.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="img/app/app-screen-3.png"
+              alt="IPhone app confirmation screen"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-locations" id="locations">
+        <div class="container center-text">
+          <span class="subheading">Locations</span>
+          <h2 class="heading-secondary">
+            SCULPT has hundreds of thoroughly chosen partners. Try various
+            locations to find your favourite places.
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="location">
+            <img
+              src="img/locations/location-1.jpg"
+              class="location-img"
+              alt="Gym with good view"
+            />
+
+            <div class="location-content">
+              <div class="location-tags">
+                <span class="tag tag--vegetarian">Gym</span>
+              </div>
+              <p class="location-title">Iron Gym</p>
+              <ul class="location-attributes">
+                <li class="location-attribute">
+                  <ion-icon class="location-icon" name="time-outline"></ion-icon
+                  ><span>open <strong>07:00 - 22:00</strong></span>
+                </li>
+
+                <li class="location-attribute">
+                  <ion-icon
+                    class="location-icon"
+                    name="location-outline"
+                  ></ion-icon
+                  ><span> <strong>19</strong> Keren HaYesod St</span>
+                </li>
+
+                <li class="location-attribute">
+                  <ion-icon class="location-icon" name="star-outline"></ion-icon
+                  ><span> <strong>4.9</strong> rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="location">
+            <div class="location">
+              <img
+                src="img/locations/logan-weaver-lgnwvr-amgv9YUg-MA-unsplash.jpg"
+                class="location-img"
+                alt="Avocado salad"
+              />
+
+              <div class="location-content">
+                <div class="location-tags">
+                  <span class="tag tag--vegan">Yoga</span>
+                  <span class="tag tag--paleo">Stretching</span>
+                </div>
+                <p class="location-title">StudioAYO Yoga</p>
+                <ul class="location-attributes">
+                  <li class="location-attribute">
+                    <ion-icon
+                      class="location-icon"
+                      name="time-outline"
+                    ></ion-icon
+                    ><span>open <strong>08:30 - 21:00</strong></span>
+                  </li>
+
+                  <li class="location-attribute">
+                    <ion-icon
+                      class="location-icon"
+                      name="location-outline"
+                    ></ion-icon
+                    ><span> <strong>1</strong> Eilat St</span>
+                  </li>
+
+                  <li class="location-attribute">
+                    <ion-icon
+                      class="location-icon"
+                      name="star-outline"
+                    ></ion-icon
+                    ><span> <strong>4.8</strong> rating (441)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="activities">
+            <h3 class="heading-tertiary">Right activity for everyone:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Gym</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Yoga</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Swimming</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Dancing</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Pilates</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Crossfit</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Stretching</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Boxing</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Aerobics</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Cycling</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Step</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Functional training</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Heavy lifting</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>SPA & Beauty</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-locations">
+          <a href="#" class="link">See all locations &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/dave.jpg"
+                alt="Dave"
+              />
+
+              <blockquote class="testimonial-text">
+                Inexpensive, effective and fun workouts, all in one place! It
+                feels truly magical.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Dave Bryson</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/ben.jpg"
+                alt="Ben"
+              />
+
+              <blockquote class="testimonial-text">
+                The variety of classes is crazy good, I can choose boxing today
+                and yoga tomorrow. It's amazing not to worry about memberships
+                anymore!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Ben Hadley</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/steve.jpg"
+                alt="Steve"
+              />
+
+              <blockquote class="testimonial-text">
+                SCULPT is a life saver! I just got promoted, so there's no space
+                for routine workout in my schedule. But now I can book a class
+                anytime just passing through if I have an extra hour or two!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Steve Miller</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/hannah.jpg"
+                alt="Hannah"
+              />
+
+              <blockquote class="testimonial-text">
+                I got SCULPT subscription for me, my mum and recommended it to
+                three of my friends already. It's so much fun when you can
+                choose a new activity every time. BTW, the app is super
+                convenient, too.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Hannah Smith</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-1.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-2.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-3.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-4.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-5.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-6.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-7.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-8.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-9.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-10.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-11.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-12.jpg"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">
+            Health & Wellness without breaking the bank
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>$</span>149</p>
+              <p class="plan-text">per month. That's just $18* per class</p>
+            </header>
+            <ul>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>2 classes per week</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>24h ahead booking & cancelling</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Free cancellation</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon
+                ><span></span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Start training</a>
+            </div>
+          </div>
+
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Complete</p>
+              <p class="plan-price"><span>$</span>399</p>
+              <p class="plan-text">per month. That's just $18* per class</p>
+            </header>
+            <ul>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>4 classes per week</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>2h ahead booking & cancelling</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Free cancellation</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span
+                  >Get access to the latest training programms &
+                  recommendations</span
+                >
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Start training</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            *Prices per class are approximate due to various studios individual
+            pricing policies.
+            <br />Prices include all applicable taxes. You can cancel at any
+            time. Both plans also include the following:
+          </aside>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+            <p class="feature-title">Never stop moving!</p>
+            <p class="feature-text">
+              Our subscriptions cover 365 days per year, even including major
+              holidays.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="barbell-outline"></ion-icon>
+            <p class="feature-title">Local businesses</p>
+            <p class="feature-text">
+              Our partners are local, reliable, and constantly improving gyms
+              and fitness studios.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="apps-outline"></ion-icon>
+            <p class="feature-title">Easy as pie</p>
+            <p class="feature-text">
+              Choose and sign up for the class under 5 minutes via SCULPT app.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <p class="feature-title">Pause anytime</p>
+            <p class="feature-text">
+              Going on vacation? Just pause your subscription, and we refund
+              unused days.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Get your trial workout for free!
+              </h2>
+              <p class="cta-text">
+                Singular fitness membership to hundreds of gyms, fitness studios
+                and welness-centers. Get an opportunity to choose the right time
+                and the right place for you. Try any workout for free and join
+                SCULPT to make sports a lifestyle!
+              </p>
+
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="full-name">Full name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select name="" id="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">Youtube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="woman training"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a class="footer-logo" href="#">
+            <img class="logo" src="img/SCULPT logo.jpg" alt="Sculpt logo"
+          /></a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by SCULPT, Inc. All
+            rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+            ><br />
+            <a class="footer-link" href="mailto:hello@sculpt.com"
+              >hello@sculpt.com</a
+            >
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About SCULPT</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Our partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Training routines</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
